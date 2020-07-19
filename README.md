@@ -8,7 +8,7 @@ I used Splunk, KNIME, Apache Spark in Python, and Neo4J.
 The course requirements split the project into four main parts.
 
 The first three parts are about in-game data:
-- exploring the data
+- Exploring the data
 - Classification of users through a decision tree
 - Finding clusters of users
 
@@ -18,7 +18,8 @@ The last part of the project is about chat data and I applied graph analytic tec
 
 Splunk allowed me to have a better understanding of the in-game data.
 The syntax to search is intuitive and the Splunk Community is extensive and helpful.
-By taking extra steps, I created a preliminary dashboard.
+By taking extra steps, I created a preliminary dashboard. Please refer to the video and technical appendix
+for actual examples (in the folder .\reports).
 
 
 ## Classification
@@ -32,6 +33,8 @@ I created a new column to account for our target: classify the users based on th
 The data was split into train and test data. The decision tree algorithm used a pruning technique. Finally,
 a confusion matrix was generated.
 
+Please refer to the video and technical appendix in the folder .\reports for details and examples.
+
 
 ## Clustering
 
@@ -42,6 +45,6 @@ You find the Jupyter Notebook (and its .py version) in the folder .\clustering.
 
 While the first three parts are about in-game data, this last part is about chat data. But without any text analysis.
 The instructions were to understand the strength and relationships among users. I used Neo4J and its language Cypher.
-
+A few Cypther queries are available in the folder .\graphanalytics.
 
 
